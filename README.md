@@ -8,7 +8,7 @@ They'd like a data engineer to create a Postgres database with tables designed t
 
 ## Project Description
 
-In this project, you'll apply what you've learned on data modeling with Postgres and build an ETL pipeline using Python. To complete the project, you will need to define fact and dimension tables for a star schema for a particular analytic focus, and write an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL.
+This project aims to apply what you've learned on data modeling with Postgres and build an ETL pipeline using Python. To complete the project, you will need to define fact and dimension tables for a star schema for a particular analytic focus, and write an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL.
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ This project makes the folowing assumptions:
 
 * Python 3 is available
 * `pandas` and `psycopg2` are available
-* A PosgreSQL database is available on localhost
+* A PostgreSQL database is available on localhost
 
 ## Running the Python Scripts
 
@@ -34,7 +34,7 @@ In IPython:
 
 After examining the Log and Song JSON files, I created a Star schema (shown below) that include one Fact table (songplays) and 4 Dimension tables.
 
-<img src="data-modeling-udacity-postgres/ERD_diagram.png.png" alt="ERD Diagram" width="800"/>
+<img src="ERD_diagram.png.png" alt="ERD Diagram" width="800"/>
 
 This design will offer flexibility with the queries being used for analysis.
 
