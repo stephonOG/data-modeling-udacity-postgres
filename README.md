@@ -34,7 +34,7 @@ In IPython:
 
 After examining the Log and Song JSON files, I created a Star schema (shown below) that include one Fact table (songplays) and 4 Dimension tables.
 
-<img src="erd_diagram.png" alt="ERD Diagram" width="800"/>
+<img src="erd_diagram.png.png" alt="ERD Diagram" width="800"/>
 
 This design will offer flexibility with the queries being used for analysis.
 
