@@ -32,7 +32,7 @@ In IPython:
 
 ## Database Schema
 
-After examining the Log and Song JSON files, I created a Star schema (shown below) that include one Fact table (songplays) and 4 Dimension tables.
+Developed a Star schema as shown below that include one Fact table and 4 Dimension tables after examining the log and song json data.
 
 <img src="ERD_diagram.png.png" alt="ERD Diagram" width="800"/>
 
