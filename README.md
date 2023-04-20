@@ -25,10 +25,6 @@ At the terminal:
 1. ```python create_tables.py```
 2. ```python etl.py```
 
-In IPython:
-
-1. ```run create_tables.py```
-2. ```run etl.py```
 
 ## Database Schema
 
